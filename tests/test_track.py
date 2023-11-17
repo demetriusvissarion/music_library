@@ -41,3 +41,6 @@ def test_throws_error_when_empty_artist():
         Track('Finesse', '')
     error_message = str(e.value)
     assert error_message == "Invalid entry, 'title' and 'artist' must have at least one character."
+
+
+# Brains Flew by Westside Gunn
